@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+</html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The New Cafe</title>
+  <link rel="stylesheet" type="text/css" href=styles.css>
+</head>
+<body>
+  <div class="nav">
+    <ul style="text-align:center;">
+      <li><a href="#home">HOME</a></li>
+      <li><a href="#about">ABOUT</a></li>
+      <li><a href="#menu">MENU</a></li>
+      <li><a href="#location">LOCATION</a></li>
+    </ul>
+  </div>
+  <div id="home">
+    <p style="text-align:center;">The New<br>Cafe</p>
+    <div class="timing">
+      Open from 6am to 5pm
+    </div>
+    <div class="add">
+      15 london street, Padav
+    </div>
+  </div>
+  <section style="background-color: rgb(247,245,241);">
+    <section class="mid">
+        <section class="font1" id="about">
+          <p class="heading"><span style=
+            "background-color:black;">ABOUT THE CAFE</span></p>
+          <p class="about_cafe font2">The Cafe was founded in
+            Gwalior by Mr. Nikhil in lorem ipsum dolor sit amet,
+             consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut
+               enim ad minim veniam, quis nostrud exercitation
+               ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p class="about_cafe font2">In addition to our full espresso
+            and brew bar menu, we serve fresh made-to-order breakfast
+             and lunch sandwiches, as well as a selection of sides and
+             salads and other good stuff.</p>
+          <div class="tilt">
+            <p style="font-style: italic;">Use products
+              from nature for what it's worth - but never too early,
+               nor too late." Fresh is the new sweet.</p>
+            <p>Chef, Coffeeist and Owner: Liam Brown</p>
+          </div>
+          <img src="https://www.w3schools.com/w3images/coffeeshop.jpg" style="height:auto;
+          max-width:700px;">
+          <p class="about_add"><strong>Opening hours:
+            </strong>everyday from 6am to 5pm.</p>
+          <p class="about_add"><strong>Address:
+           </strong>15 london street, Padav,IN.</p>
+        </section>
+        <section class="font1" id="menu">
+          <p class="heading"><span style=
+            "background-color:black;">MENU</span></p>
+          <div class="menu_head shadow">
+            <p class="menu_button" id = "click1" onclick="myfunc1()">Eat</p>
+            <p class="menu_button" id ="click2" onclick="myfunc2()">Drink</p>
+          </div>
+          <div class="eat shadow" id="list1">
+            <h3 class="font1">Bread Basket</h3>
+            <p class="font2">Assortment of fresh baked fruit
+               breads and muffins 5.50 </p>
+            <br>
+            <h3 class="font1">Honey Almond Granola with Fruits</h3>
+            <p class="font2">Natural cereal of honey toasted
+               oats, raisins, almonds and dates 7.00</p>
+            <br>
+            <h3 class="font1">Belgian Waffle</h3>
+            <p class="font2">Vanilla flavored batter with
+               malted flour 7.50</p>
+            <br>
+            <h3 class="font1">Scrambled eggs</h3>
+            <p class="font2">Scrambled eggs, roasted red
+              pepper and garlic, with green onions 7.50</p>
+            <br>
+            <h3 class="font1">Blueberry Pancakes</h3>
+            <p class="font2">With syrup, butter and lots of berries 8.50</p>
+          </div>
+          <div class="Drink shadow" id="list2">
+            <h3 class="font1">Coffee</h3>
+            <p class="font2">Regular coffee 2.50</p>
+            <br>
+            <h3 class="font1">Chocolato</h3>
+            <p class="font2">Chocolate espresso with milk 4.50</p>
+            <br>
+            <h3 class="font1">Corretto</h3>
+            <p class="font2">Whiskey and coffee 5.00</p>
+            <br>
+            <h3 class="font1">Iced tea</h3>
+            <p class="font2">Hot tea, except not hot 3.00</p>
+          </div>
+        </section>
+        <img src="https://www.w3schools.com/w3images/coffeehouse2.jpg"
+        style="height:auto; max-width:700px;">
+        <section class="font1" id="location">
+          <p class="heading"><span style="background-color:black;">
+            WHERE TO FIND US</span></p>
+          <p class="font2"> Find us at some address at some place.</p>
+          <img src="https://www.w3schools.com/w3images/map.jpg" style="height:auto; max-width:700px;">
+          <p><span class="black">FYI!</span> We offer full-service
+            catering for any event,large or small.
+            We understand your needs and we will cater the food to satisfy
+            the biggerst criteria of them all, both look and taste.</p>
+            <br>
+            <p><strong>Reserve</strong> a table, ask for today's
+              special or just send us a message:</p>
+          </section>
+            <fieldset>
+              <legend>Register: </legend>
+                <form method="post" class="font2">
+                  <label for="name">Your Name:</label><br>
+                  <input type="text" id="Name" placeholder="YOUR NAME"
+                   maxlength="20" required></input><br>
+                  <label for="People">No. of People</label><br>
+                  <input type="number" id="People" placeholder="HOW MANY PEOPLE"
+                   max=10 min=1 required></input><br>
+                  <label for="date">Select Date</label><br>
+                  <input type="date" id="date" name="date" max="2021-06-26">
+                    </input><br>
+                  <label for="message">Social Message:</label><br>
+                  <textarea id="message" rows=1 maxlength="50"
+                   placeholder="Message/Social Message"></textarea><br>
+                  <input type="submit" id="submit" value="SUBMIT"></input>
+                </form>
+            </fieldset>
+        </section>
+  </section>
+  <footer class="font1">
+    <h3><strong style="color:rgb(150,150,150);">Author:</strong> <big>Nikhil Agrawal</big> </h3>
+    <div class="copyright">
+      <h4 style="color:rgb(200,200,200); font-style :italic;"><big>&copy</big> Copyright:
+        2020 Nikhil Agrawal All Rights Reserved</h4>
+    </div>
+  </footer>
+  <script src="myscript.js"></script>
+</body>
+</html>
